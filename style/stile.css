@@ -8,6 +8,19 @@ section.nav{
     background-color: #1ABC9C;
 }
 
+.jumbotron{
+    margin-bottom:6rem;
+}
+
 .jumbo-image{
     width: 250px;
+}
+
+.box{
+    border:2px solid red;
+    margin-bottom:1.5rem;
+}
+
+img{
+    width: 100%;
 }
