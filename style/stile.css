@@ -1,26 +1,53 @@
-section.nav{
-    height:70px;
+section.nav {
+    height: 70px;
     background-color: #2C3F50;
 }
 
-.bg-green{
-    height:300px;
+.bg-green {
+    height: 300px;
     background-color: #1ABC9C;
 }
 
-.jumbotron{
-    margin-bottom:6rem;
+.jumbotron {
+    margin-bottom: 6rem;
 }
 
-.jumbo-image{
+.jumbo-image {
     width: 250px;
 }
 
-.box{
-    border:2px solid red;
-    margin-bottom:1.5rem;
+.box {
+    border: 2px solid red;
+    margin-bottom: 1.5rem;
 }
 
-img{
+img {
     width: 100%;
 }
+
+.bg-dark-blue{
+    background-color: #39546D;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+    .my-container{
+        height:200px;
+        width:60%;
+        margin:0 auto;
+        border:magenta solid 2px
+    }
+
+    .my-container-footer{
+        height:200px;
+        width:70%;
+        margin:0 auto;
+        border:magenta solid 2px
+    }
+}
+
