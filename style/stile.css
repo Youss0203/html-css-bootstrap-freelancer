@@ -1,11 +1,16 @@
-section.nav {
-    height: 70px;
+.my_bg {
+    /*height: 70px;*/
     background-color: #2C3F50;
 }
 
 .bg-green {
-    height: 300px;
+    /*height: 500px;*/
     background-color: #1ABC9C;
+}
+
+.my_bg-g{
+    background-color: #1ABC9C;
+    border:1px solid #1ABC9C;
 }
 
 .jumbotron {
@@ -17,7 +22,6 @@ section.nav {
 }
 
 .box {
-    border: 2px solid red;
     margin-bottom: 1.5rem;
 }
 
@@ -25,29 +29,160 @@ img {
     width: 100%;
 }
 
-.bg-dark-blue{
+.bg-dark-blue {
     background-color: #39546D;
 }
 
-
-
-
-
-
-
-@media screen and (min-width:768px){
-    .my-container{
-        height:200px;
-        width:60%;
-        margin:0 auto;
-        border:magenta solid 2px
-    }
-
-    .my-container-footer{
-        height:200px;
-        width:70%;
-        margin:0 auto;
-        border:magenta solid 2px
-    }
+ul {
+    list-style: none;
+    padding-top: .6rem;
 }
 
+li {
+    padding-right: 1.5rem;
+}
+
+.my-main-title {
+    font-size: 25px;
+}
+
+.my-nav {
+    display: none;
+}
+
+.fa-bars {
+    color: #879099;
+    font-size: 20px;
+}
+
+.jumbo-divider {
+    width: 10%;
+    background-color: white;
+    height: 4px;
+    border-radius: 2rem;
+}
+
+.fa-star {
+    color: white;
+    font-size: 20px;
+    padding: 0 .9rem;
+}
+
+.my-margin-b {
+    margin-bottom: 1.5rem;
+}
+
+.my-padding {
+    padding: 0 3rem;
+}
+
+.my-color {
+    color: #333333;
+}
+
+.jumbo-divider-black {
+    width: 10%;
+    background-color: #333333;
+    height: 4px;
+    border-radius: 2rem;
+}
+
+.circle {
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 35px;
+    height: 35px;
+
+}
+
+
+.fa-twitter,
+.fa-google-plus-g {
+    padding-top: .5rem;
+    padding-left: .5rem;
+    color: white;
+}
+
+.fa-facebook-f {
+    padding-top: .5rem;
+    padding-left: .7rem;
+    color: white;
+}
+
+.fa-linkedin-in {
+    padding-top: .5rem;
+    padding-left: .6rem;
+    color: white;
+
+}
+
+.my-padding-top {
+    padding-top: 3rem;
+}
+
+.no-margin {
+    margin-bottom: 0;
+}
+
+span{
+    color:#1FB599;
+}
+
+h2{
+    font-size:20px;
+}
+
+.padd{
+    padding:0 3rem;
+}
+
+.my-top{
+    padding-top:1.5rem
+}
+
+
+
+@media screen and (min-width:768px) {
+    .my-container {
+        /*height:200px;*/
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .my-container-footer {
+        height: 200px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .my-xs-nav {
+        display: none;
+    }
+
+    .my-nav {
+        display: block;
+    }
+
+    .jumbo-divider {
+        width: 7%;
+    }
+
+    .my-padding {
+        padding: 0;
+    }
+
+    .my-p-right {
+        padding-right: 1rem;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .my-container {
+        /*height:200px;*/
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+}
