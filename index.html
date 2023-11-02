@@ -15,22 +15,29 @@
 <body>
     <header>
         <section class="my_bg">
-            <div class="container container-md">
-                <div class=" d-flex justify-content-between align-items-center">
-                    <div class="d-flex">
-                        <h1 class="text-white text-uppercase my-main-title">Start Bootsrap</h1>
-                    </div>
-                    <div class="my-nav">
-                        <ul class="d-flex">
-                            <li class="text-uppercase text-white">Portfolio</li>
-                            <li class="text-uppercase text-white">About</li>
-                            <li class="text-uppercase text-white">Contact</li>
-                        </ul>
-                    </div>
-                    <div class="my-xs-nav"><i class="fa-solid fa-bars"></i></div>
-                </div>
-            </div>
+            <nav class="navbar navbar-expand-md">
 
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-uppercase text-white" href="#">Start Bootsrap</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="#">CONTACT</a>
+                            </li>
+                    </div>
+            </nav>
         </section>
         <section class="jumbotron bg-green">
             <div class=" row">
@@ -159,12 +166,13 @@
                     <div class="col-12">
                         <form class="mb-5">
                             <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Name</label>
-                              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <label for="exampleInputEmail1" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
-                              <label for="exampleInputPassword1" class="form-label">Email adrees</label>
-                              <input type="email" class="form-control" id="exampleInputPassword1">
+                                <label for="exampleInputPassword1" class="form-label">Email adrees</label>
+                                <input type="email" class="form-control" id="exampleInputPassword1">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Phone number</label>
@@ -173,9 +181,9 @@
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-                              </div>
-                              <button type="button" class="btn btn-success my_bg-g">Send</button>
-                          </form>
+                            </div>
+                            <button type="button" class="btn btn-success my_bg-g">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>
